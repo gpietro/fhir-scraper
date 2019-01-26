@@ -1,0 +1,17 @@
+{
+  "name": "dragon-scraper",
+  "version": "1.0.0",
+  "description": "Scraper fhir schemas from hl7 website",
+  "main": "scraper.js",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pietro Ghezzi",
+  "license": "ISC"
+}
